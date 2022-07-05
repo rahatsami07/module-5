@@ -61,7 +61,8 @@
 }
 
 .text a:hover {
-    background-color: linear-gradient(223deg, #a5d4ee, #15bcfc, );
+    transform: scale(1.2);
+    background-color: linear-gradient(223deg, #15bcfc, #a5d4ee, );
 }
 
 .secound {
