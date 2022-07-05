@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first,
+.secound {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text {
+    width: 50%;
+    margin: 50px;
+}
+
+.text h1 {
+    font-size: 52px;
+    line-height: 61px;
+    color: #333;
+}
+
+.photo img {
+    width: 80%;
+    margin: 50px;
+}
+
+.photo {
+    width: 50%;
+}
+
+.span {
+    color: #fb5200;
+}
+
+.text span {
+    color: #13B7FC;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 55px;
+    line-height: 30px;
+}
+
+.text a {
+    text-decoration: none;
+    background: linear-gradient(211deg, #15bcfc, #a5d4ee);
+    color: #fff;
+    transition: 0.6s;
+    padding: 15px 35px;
+    display: block;
+    width: 20%;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0px 0px 100px #33a4e3;
+}
+
+.text a:hover {
+    background-color: linear-gradient(223deg, #a5d4ee, #15bcfc, );
+}
+
+.secound {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 25px;
+    color: #333;
+}
+
+.heading p {
+    font-size: 15px;
+    color: #333;
+}
+
+.img img {
+    width: 499px;
+    padding: 10px 0px 10px 15px;
+    transition: 0.6s;
+}
+
+.img img:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.first-item {
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px #9f9a9a;
+    margin: 10px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.first-item h1 {
+    padding-left: 15px;
+}
+
+.first-item p {
+    padding-left: 15px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10% 5% 5% 5%;
+}
+
+.one,
+.two,
+.three {
+    width: 21%;
+}
+
+.one b,
+.two b,
+.three b {
+    font-size: 40px;
+}
+
+.one p,
+.two p,
+.three p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+
+footer {
+    background: #14B9FC;
+    height: 50vh;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer h1 {
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+footer span {
+    color: #004a7e;
+}
+
+footer p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
